@@ -30,7 +30,7 @@ jobs:
       # Step 4: Deploy to AWS EC2
       - name: Deploy to EC2
         env:
-          SERVER_IP: 3.82.36.80
+          SERVER_IP: 44.203.116.195
           SSH_USER: ubuntu
           DEPLOY_DIR: /var/www/html
 
