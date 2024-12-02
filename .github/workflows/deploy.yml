@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: 16
 
-      # Step 3: Install Dependencies and Build
+      # Step 3: Install Dependencies and Build c
       - name: Install and Build
         run: |
           npm install
@@ -28,6 +28,7 @@ jobs:
           tar -czf dist.tar.gz -C dist/sample-pwa .
 
       # Step 4: Deploy to AWS EC2 output
+
       - name: Deploy to EC2
         env:
           SERVER_IP: 54.145.137.234
