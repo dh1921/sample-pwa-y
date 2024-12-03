@@ -31,7 +31,7 @@ jobs:
 
       - name: Deploy to EC2   
         env:
-          SERVER_IP: 44.207.8.58
+          SERVER_IP: 44.211.47.182
           SSH_USER: ec2-user
           DEPLOY_DIR: /var/www/html
 
