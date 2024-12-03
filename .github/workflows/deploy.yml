@@ -29,7 +29,7 @@ jobs:
 
       # Step 4: Deploy to AWS EC2 output            
 
-      - name: Deploy to EC2
+      - name: Deploy to EC2   
         env:
           SERVER_IP: 44.207.8.58
           SSH_USER: ec2-user
